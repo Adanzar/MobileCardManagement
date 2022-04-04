@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">CardHolder</string>
+  <string name="tittle_splash">The new way to store all your cards</string>
+  <string name="log_in">Log in</string>
+  <string name="register">Register</string>
+  <string name="description_logo">Logo cardHolder</string>
+  <string name="string_titulos" />
+  <string name="tittle_login">Access to all your cards is just a click away</string>
+  <string name="input_username">Username</string>
+  <string name="input_password">Password</string>
+  <string name="recover_password">Recover password</string>
 </resources>

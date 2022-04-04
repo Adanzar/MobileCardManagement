@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <ImageView
+    android:id="@+id/imageViewLogoLogin"
+    android:layout_width="match_parent"
+    android:layout_height="283dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="40dp"
+    android:contentDescription="@string/description_logo"
+    app:srcCompat="@drawable/logo" />
+
+  <TextView
+    android:id="@+id/textViewLogin"
+    android:layout_width="match_parent"
+    android:layout_height="137dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginBottom="40dp"
+    android:fontFamily="@font/exo_bold"
+    android:gravity="center|left"
+    android:text="Access to all your cards is just a click away"
+    android:textColor="#606060"
+    android:textSize="30sp"
+    android:textStyle="bold" />
+
+  <com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputEditText
+      android:id="@+id/inputUserName"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:layout_marginLeft="15dp"
+      android:layout_marginRight="15dp"
+      android:background="#00FFFFFF"
+      android:fontFamily="@font/exo_bold"
+      android:gravity="start"
+      android:hint="@string/input_username"
+      android:inputType="textPersonName"
+      android:textColor="#273E79"
+      android:textSize="18sp"
+      android:textStyle="bold" />
+
+  </com.google.android.material.textfield.TextInputLayout>
+
+  <com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputEditText
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:layout_marginLeft="15dp"
+      android:layout_marginTop="30dp"
+      android:layout_marginRight="15dp"
+      android:background="#00FFFFFF"
+      android:fontFamily="@font/exo_bold"
+      android:gravity="start"
+      android:hint="@string/input_password"
+      android:inputType="textPassword"
+      android:password="true"
+      android:textColor="#273E79"
+      android:textSize="18sp"
+      android:textStyle="bold" />
+
+  </com.google.android.material.textfield.TextInputLayout>
+
+  <TextView
+    android:id="@+id/textViewRecover"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="15dp"
+    android:fontFamily="@font/exo"
+    android:text="@string/recover_password"
+    android:textColor="#273E79"
+    android:textSize="14sp" />
+
+  <Button
+    android:id="@+id/button"
+    style="@style/Widget.AppCompat.Button"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_gravity="bottom|center"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="50dp"
+    android:layout_marginRight="30dp"
+    android:fontFamily="@font/exo_bold"
+    android:gravity="center_vertical"
+    android:text="Log in"
+    android:textAlignment="center"
+    android:textSize="24sp"
+    android:textStyle="bold" />
+
+</LinearLayout>
